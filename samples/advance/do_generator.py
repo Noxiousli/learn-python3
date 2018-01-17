@@ -12,7 +12,7 @@ def fib(max):
         yield b
         a, b = b, a + b
         n = n + 1
-    return 'done'
+    return 'done
 
 f = fib(10)
 print('fib(10):', f)
